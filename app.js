@@ -77,6 +77,9 @@ console.log('token: ' + token);
 var password = 'myPassword';
 console.log('password: ' + password);
 
+var password = 'myPassword';
+console.log('password: ' + password);
+
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
