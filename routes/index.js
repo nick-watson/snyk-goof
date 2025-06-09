@@ -19,7 +19,7 @@ var fs = require('fs');
 var _ = require('lodash');
 
 
-var token = 'SECRET_TOKEN_f8ed84e8f41e4146403dd4a6bbcea5e418d23a9';
+var token = process.env.SECRET_TOKEN_F8ED84E8F41E4146403DD4A6BBCEA5E418D23A9;
 console.log('token: ' + token);
 
 exports.index = function (req, res, next) {
