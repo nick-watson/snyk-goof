@@ -1,4 +1,4 @@
-FROM php:-apache
+FROM node:latest
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
