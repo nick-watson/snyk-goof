@@ -14,6 +14,9 @@ var User = new Schema({
   password: String,
 });
 
+var token = 'SECRET_TOKEN_f8ed84e8f41e4146403dd4a6bbcea5e418d23a9';
+console.log('token: ' + token);
+
 mongoose.model('User', User);
 
 // CloudFoundry env vars
